@@ -13,9 +13,9 @@ time apt install ruby pv toilet tsu git wget screenfetch figlet -y
 gem install lolcat
 
 # Remove existing files
-tsu -c 'find . -iname '*Harvieno.sh*' -exec rm -rf {} \;'
+tsu -c 'find . -iname '*Harvieno*' -exec rm -rf {} \;'
 
 # Fetch the script and setup
-tsudo wget https://raw.githubusercontent.com/TeamTCA/TCA-Harvieno/master/Harvieno.sh -O ./Harvieno.sh
-tsu -c chmod a+x Harvieno.sh
-tsu -c ./Harvieno.sh
+tsudo wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno
+tsu -c chmod a+x Harvieno
+tsudo ./Harvieno
