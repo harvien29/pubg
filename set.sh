@@ -10,4 +10,4 @@ gem install lolcat
 
 wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno
 chmod a+x Harvieno
-tsu -c ./Harvieno
+tsudo ./Harvieno
