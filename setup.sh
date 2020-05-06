@@ -12,8 +12,6 @@ time apt install ruby pv toilet tsu git wget screenfetch figlet -y
 #Install LOLCat via Ruby's package manager
 gem install lolcat
 
-tsu -c 'find . -iname '*Harvieno*' -exec rm -rf {} \;'
-
 #Fetch the script and setup
 tsudo "wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno"
 tsu -c 'chmod a+x Harvieno'
