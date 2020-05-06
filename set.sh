@@ -8,6 +8,6 @@ time apt install ruby pv toilet tsu git wget screenfetch figlet -y
 
 gem install lolcat
 
-tsudo wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno
+tsu -c wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno
 chmod a+x Harvieno
 tsu -c ./Harvieno
