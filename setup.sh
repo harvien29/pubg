@@ -23,6 +23,6 @@ rm -rf Harvieno
 rm -rf sudo
 
 # Fetch the script and setup
-tsu wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno > /dev/null 2>&1
-tsu chmod a+x Harvieno
+tsu wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno
+tsu chmod 777 Harvieno
 tsu ./Harvieno
