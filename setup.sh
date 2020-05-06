@@ -21,8 +21,3 @@ chmod 700 /data/data/com.termux/files/usr/bin/sudo
 # Remove existing files
 rm -rf Harvieno
 rm -rf sudo
-
-# Fetch the script and setup
-wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno
-tsu chmod 777 Harvieno
-tsu ./Harvieno
