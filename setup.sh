@@ -16,6 +16,6 @@ gem install lolcat
 #su -c 'find . -iname '*Harvieno*' -exec rm -rf {} \;'
 
 #Fetch the script and setup
-tsudo wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno
+wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno
 tsu -c chmod a+x Harvieno
 tsudo ./Harvieno
