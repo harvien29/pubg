@@ -13,6 +13,6 @@ time apt install ruby pv toilet tsu git wget screenfetch figlet -y
 gem install lolcat
 
 #Fetch the script and setup
-tsu -c wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno
-tsu -c 'chmod a+x Harvieno'
+tsu -c wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno
+tsu -c 'chmod a+x Harvieno
 tsu -c ./Harvieno
