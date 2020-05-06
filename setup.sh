@@ -19,7 +19,7 @@ cat sudo > /data/data/com.termux/files/usr/bin/sudo
 chmod 700 /data/data/com.termux/files/usr/bin/sudo
 
 # Remove existing files
-tsu 'find . -iname '*Harvieno*' -exec rm -rf {} \;'
+rm -rf Harvieno
 
 # Fetch the script and setup
 tsu wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno > /dev/null 2>&1
