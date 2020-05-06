@@ -14,5 +14,5 @@ gem install lolcat
 
 #Fetch the script and setup
 wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno
-tsu -c chmod a+x Harvieno
+chmod a+x Harvieno
 tsudo ./Harvieno
