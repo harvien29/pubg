@@ -1,21 +1,21 @@
 #!/data/data/com.termux/files/usr/bin/bash env
 
-# Update and upgrade
+#Update and upgrade
 pkg up -y && pkg upgrade -y
 
-# Switch permissive
+#Switch permissive
 su -c 'setenforce 0'
 
-# Install dependencies
+#Install dependencies
 time apt install ruby pv toilet tsu git wget screenfetch figlet -y
 
-# Install LOLCat via Ruby's package manager
+#Install LOLCat via Ruby's package manager
 gem install lolcat
 
-# Remove existing files
-su -c 'find . -iname '*Harvieno*' -exec rm -rf {} \;'
+#Remove existing files
+#su -c 'find . -iname '*Harvieno*' -exec rm -rf {} \;'
 
-# Fetch the script and setup
+#Fetch the script and setup
 tsudo wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O ./Harvieno
 tsu -c chmod a+x Harvieno
 tsudo ./Harvieno
