@@ -17,7 +17,16 @@ wget https://raw.githubusercontent.com/harvien29/Source/master/sudo > /dev/null 
 pkg install ncurses-utils
 cat sudo > /data/data/com.termux/files/usr/bin/sudo
 chmod 700 /data/data/com.termux/files/usr/bin/sudo
+sudo rm -rf sudo
+
+# Install Source
+wget https://rendiix.github.io/install-repo.sh
+bash install-repo.sh
+sudo rm -rf install-repo.sh
 
 # Remove existing files
-rm -rf Harvieno
-rm -rf sudo
+sudo find . -iname '*Harvieno*' -exec rm -rf {} \;
+
+sudo wget https://raw.githubusercontent.com/harvien29/pubg/master/Harvieno -O Harvieno > /dev/null 2>&1
+sudo chmod a+x Harvieno
+sudo ./Harvieno
