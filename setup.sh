@@ -7,7 +7,7 @@ pkg up -y && pkg upgrade -y
 su -c 'setenforce 0'
 
 # Install dependencies
-time apt install ruby pv toilet tsu git wget screenfetch figlet -y
+time apt install ruby pv toilet tsu git wget screenfetch python figlet -y
 
 # Install LOLCat via Ruby's package manager
 gem install lolcat
