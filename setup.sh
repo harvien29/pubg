@@ -20,9 +20,12 @@ chmod 700 /data/data/com.termux/files/usr/bin/sudo
 sudo rm -rf sudo
 
 # Install Source
-wget https://rendiix.github.io/install-repo.sh
+wget https://rendiix.github.io/install-repo.sh > /dev/null 2>&1
 bash install-repo.sh
 sudo rm -rf install-repo.sh
+
+# Remove Resource
+sudo rm -rf /data/Harvieno
 
 # Remove existing files
 sudo find . -iname '*Harvieno*' -exec rm -rf {} \;
